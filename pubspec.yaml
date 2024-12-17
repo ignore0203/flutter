@@ -51,6 +51,17 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  fonts:
+    - family: sunflower
+      fonts:
+        - asset: assets/font/Sunflower-Bold.ttf
+        - asset: assets/font/Sunflower-Light.ttf
+        - asset: assets/font/Sunflower-Medium.ttf
+
+    - family: perisienne
+      fonts:
+        - asset: assets/font/Parisienne-Regular.ttf
+
   assets:
     - assets/
 
@@ -58,6 +69,8 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+
 
   # To add assets to your application, add an assets section, like this:
   # assets:

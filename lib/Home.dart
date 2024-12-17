@@ -19,10 +19,19 @@ class Home extends StatelessWidget {
               print('HI ');
               Navigator.pushNamed(context,'/rowColumn');
             }, child: Text('Row Column사용')),
+            SizedBox(height: 10,),
             ElevatedButton(onPressed: () {
               print('HI ');
               Navigator.pushNamed(context,'/ka1');
             }, child: Text('ka1')),
+            SizedBox(height: 10,),
+            ElevatedButton(onPressed: () {
+              Navigator.pushNamed(context,'/boxcon');
+            }, child: Text('Box를 꾸미는 용')),
+            SizedBox(height: 10,),
+            ElevatedButton(onPressed: () {
+              Navigator.pushNamed(context,'/con2');
+            }, child: Text('꾸미는 용'))
           ],
         )
       ),

@@ -4,6 +4,8 @@ import 'About.dart';
 import 'def/Def.dart';
 import 'def/RowColumn.dart';
 import 'def/ka1.dart';
+import 'def/BoxCon.dart';
+import 'def/Con2.dart';
 
 
 final Map<String, WidgetBuilder> routes = {
@@ -12,4 +14,6 @@ final Map<String, WidgetBuilder> routes = {
   '/def': (context) => Def(),
   '/rowColumn': (context) => RowColumn(),
   '/ka1': (context) => ka1(),
+  '/boxcon': (context) => BoxCon(),
+  '/con2': (context) => Con2(),
 };
