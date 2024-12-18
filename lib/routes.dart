@@ -7,6 +7,8 @@ import 'def/ka1.dart';
 import 'def/BoxCon.dart';
 import 'def/Con2.dart';
 
+import 'def2/Counter.dart';
+
 
 final Map<String, WidgetBuilder> routes = {
   '/home': (context) => Home(),
@@ -16,4 +18,6 @@ final Map<String, WidgetBuilder> routes = {
   '/ka1': (context) => ka1(),
   '/boxcon': (context) => BoxCon(),
   '/con2': (context) => Con2(),
+
+  '/counter': (context) => Counter(),
 };
