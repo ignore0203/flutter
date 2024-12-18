@@ -8,6 +8,7 @@ import 'def/BoxCon.dart';
 import 'def/Con2.dart';
 
 import 'def2/Counter.dart';
+import 'def2/ParentChild.dart';
 
 
 final Map<String, WidgetBuilder> routes = {
@@ -20,4 +21,5 @@ final Map<String, WidgetBuilder> routes = {
   '/con2': (context) => Con2(),
 
   '/counter': (context) => Counter(),
+  '/parentChild': (context) => ParentChild(),
 };

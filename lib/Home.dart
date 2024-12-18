@@ -35,7 +35,11 @@ class Home extends StatelessWidget {
             SizedBox(height: 10,),
             ElevatedButton(onPressed: () {
               Navigator.pushNamed(context,'/counter');
-            }, child: Text('좋아요/싫어요'))
+            }, child: Text('좋아요/싫어요')),
+            SizedBox(height: 10,),
+            ElevatedButton(onPressed: () {
+              Navigator.pushNamed(context,'/parentChild');
+            }, child: Text('값 건내받기'))
           ],
         )
       ),
