@@ -9,6 +9,9 @@ import 'def/Con2.dart';
 
 import 'def2/Counter.dart';
 import 'def2/ParentChild.dart';
+import 'def2/FormW.dart';
+import 'def2/FormW2.dart';
+import 'def2/ka2.dart';
 
 
 final Map<String, WidgetBuilder> routes = {
@@ -22,4 +25,7 @@ final Map<String, WidgetBuilder> routes = {
 
   '/counter': (context) => Counter(),
   '/parentChild': (context) => ParentChild(),
+  '/formW': (context) => FormW(),
+  '/formW2': (context) => FormW2(),
+  '/ka2': (context) => ka2(),
 };

@@ -39,7 +39,19 @@ class Home extends StatelessWidget {
             SizedBox(height: 10,),
             ElevatedButton(onPressed: () {
               Navigator.pushNamed(context,'/parentChild');
-            }, child: Text('값 건내받기'))
+            }, child: Text('값 건내받기')),
+            SizedBox(height: 10,),
+            ElevatedButton(onPressed: () {
+              Navigator.pushNamed(context,'/formW');
+            }, child: Text('FormW 사용하기')),
+            SizedBox(height: 10,),
+            ElevatedButton(onPressed: () {
+              Navigator.pushNamed(context,'/formW2');
+            }, child: Text('FormW2 사용하기')),
+            SizedBox(height: 10,),
+            ElevatedButton(onPressed: () {
+              Navigator.pushNamed(context,'/ka2');
+            }, child: Text('과제2'))
           ],
         )
       ),
